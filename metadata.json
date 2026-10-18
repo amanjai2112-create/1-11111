@@ -1,0 +1,6 @@
+{
+  "name": "The CBT App",
+  "description": "Physics, Chemistry, and Biology CBT exam practice app with PDF/OCR question import, custom DPP builder, cloud sync, and Gemini AI doubt solver.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

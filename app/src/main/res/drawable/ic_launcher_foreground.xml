@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer subtle glow ring inside 66dp safe zone -->
+    <path
+        android:fillColor="#26FFFFFF"
+        android:pathData="M54,24A30,30 0 1,1 54,84A30,30 0 1,1 54,24Z" />
+    <!-- Atom orbital 1 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M30,54a24,9.5 0 1,0 48,0a24,9.5 0 1,0 -48,0z" />
+    <!-- Atom orbital 2 (rotated 60 deg) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="60">
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#9EE6FF"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:pathData="M30,54a24,9.5 0 1,0 48,0a24,9.5 0 1,0 -48,0z" />
+    </group>
+    <!-- Atom orbital 3 (rotated -60 deg) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-60">
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FF8BC2"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:pathData="M30,54a24,9.5 0 1,0 48,0a24,9.5 0 1,0 -48,0z" />
+    </group>
+    <!-- Bold Checkmark badge in center representing CBT Exam mastery -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,44A10,10 0 1,1 54,64A10,10 0 1,1 54,44Z" />
+    <path
+        android:fillColor="#4B2FE8"
+        android:pathData="M52.2,57.8L48.5,54.1L50.1,52.5L52.2,54.6L57.9,48.9L59.5,50.5L52.2,57.8Z" />
+</vector>
